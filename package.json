@@ -1,0 +1,29 @@
+{
+  "name": "dicomstagram-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL microservice for DICOMstagram",
+  "author": "Nikita Petukhov <nedoumok99@gmail.com>",
+  "repository": "kaptiin-tuekhov/dicomstagram-graphql",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "micro": "^7.0.0"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.2",
+    "ava": "^0.18.1",
+    "got": "^6.7.1",
+    "test-listen": "^1.0.1",
+    "xo": "^0.17.1"
+  }
+}
